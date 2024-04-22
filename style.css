@@ -100,12 +100,14 @@ section {
 }
 
 @media screen and (max-Width:900px) {
- 
-    
+
+
+
+
     main {
+
         width: 100vw;
         height: 100vh;
-        align-items: center;
         font-family: Poppins;
         display: block;
     }
@@ -122,9 +124,14 @@ section {
 
     header {
         position: absolute;
-        top: 0;
-        right: 0%;
-        
+        top: 3%;
+        right: 1%;
+        width: 114px;
+        height: 51px;
+        margin: 0;
+
+
+
 
 
     }
@@ -153,7 +160,7 @@ section {
         position: static;
         height: auto;
         width: 60%;
-        
+
 
 
 
@@ -196,8 +203,8 @@ section {
 
 
     .botao-header {
-        display: inline-block;
-        width: 124px;
+        display: block;
+        width: 114px;
         height: 51px;
         background-color: #6fbf44;
         border: none;
